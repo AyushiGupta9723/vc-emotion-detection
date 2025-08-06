@@ -9,7 +9,7 @@ reports
 # Distribution / packaging
 .Python
 env/
-build/
+build/g
 develop-eggs/
 dist/
 downloads/
