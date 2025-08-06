@@ -19,5 +19,5 @@ learning_rate=yaml.safe_load(open('params.yaml','r'))['model_building']['learnin
 clf = GradientBoostingClassifier(n_estimators=n_estimators,learning_rate=learning_rate)
 clf.fit(X_train, y_train)
 
-# save
+
 pickle.dump(clf, open('model.pkl','wb'))
